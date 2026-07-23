@@ -15,11 +15,13 @@ import {
 import config from './data/config.js';
 import { featuredProjects, additionalProjects } from './data/projects.js';
 import { experience, education } from './data/experience.js';
+import accomplishments from './data/accomplishments.js';
 import thesis from './data/thesis.js';
 
 const NAV = [
   ['Work', 'work'],
   ['Experience', 'experience'],
+  ['Accomplishments', 'accomplishments'],
   ['Thesis', 'thesis'],
   ['About', 'about'],
 ];
@@ -304,6 +306,35 @@ function Experience() {
   );
 }
 
+function Accomplishments() {
+  return (
+    <section className="section" id="accomplishments">
+      <div className="shell">
+        <div className="section-head reveal">
+          <p className="eyebrow">Accomplishments</p>
+          <h2 className="section-title">High-agency stories, from park-scale eCommerce to first-of-kind technology.</h2>
+          <p>
+            A selection of outcomes led across two decades of corporate innovation
+            and business development — verified, public-record highlights.
+          </p>
+        </div>
+        <div className="accomplishments-grid reveal">
+          {accomplishments.map((a) => (
+            <div className="accomplishment-card" key={a.id}>
+              <div className="accomplishment-top">
+                <span className="accomplishment-stat">{a.stat}</span>
+                <span className="accomplishment-label">{a.label}</span>
+              </div>
+              <h3 className="accomplishment-title">{a.title}</h3>
+              <p className="accomplishment-body">{a.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Thesis() {
   return (
     <section className="section" id="thesis">
@@ -341,16 +372,30 @@ function About() {
               <strong>Orlando, Florida</strong>. He founded and leads{' '}
               <strong>Draft First Technologies</strong>, where he is the
               inventor and product architect behind pre-inference prompt
-              optimization infrastructure.
+              optimization infrastructure, and leads{' '}
+              <strong>Powerlaw Venture Studio</strong>, the operating context
+              behind several parallel ventures.
             </p>
             <p>
               Before building independently, he led{' '}
               <strong>Strategic Innovation &amp; Emerging Technology</strong>{' '}
-              along with Digital and Brand Marketing at NBCUniversal Parks &amp;
-              Resorts, and his public profile records a business development and
-              digital innovation role at JIFFY.ai. He is a founding partner of
-              Reaction Global and has served on the Editorial Advisory Board of
-              Innovation Leader.
+              along with eCommerce, Digital, and Brand Marketing at NBCUniversal
+              Parks &amp; Resorts for 17 years — propelling online sales into the
+              company's #1 channel and piloting the first operational facial
+              recognition system in theme park attraction operations. His public
+              profile also records a business development and digital innovation
+              role at JIFFY.ai, where he led international expansion across Latin
+              America, Europe, Saudi Arabia, and Morocco. Earlier in his career he
+              held brand and marketing roles at The Coca-Cola Company, Overture
+              Services/GoTo.com, and The Pillsbury Company.
+            </p>
+            <p>
+              He is a founding partner of <strong>Reaction Global</strong>, a
+              consulting innovation partner at <strong>Platypus Labs</strong>,
+              and has served on the Editorial Advisory Board of Innovation
+              Leader, as an Industry Advisor to the Georgia Tech Create-X
+              accelerator, and as a member of Stanford Angels &amp;
+              Entrepreneurs.
             </p>
             <p>
               He studied Business Administration at the{' '}
@@ -415,6 +460,7 @@ export default function App() {
         <Hero />
         <Work />
         <Experience />
+        <Accomplishments />
         <Thesis />
         <About />
       </main>

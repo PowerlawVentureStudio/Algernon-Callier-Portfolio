@@ -26,56 +26,101 @@ export const experience = [
     role: 'Head of Business Development / Digital Innovation',
     period: 'Public profile: 2020 onward',
     detail:
-      'Public professional profile lists this role from September 2020. Included as public-record history.',
+      'Led partnership development and international business development for an intelligent-automation platform. Established a multi-year business relationship with a global leader in industrial software; led international BD across Latin America, Europe, Saudi Arabia, and Morocco; drove business development engagement with tech accelerators including Plug and Play (Silicon Valley) and IATTA Startup Hotlist; supported trade shows, marketing content programs, and speaking engagements.',
   },
   {
     id: 'nbcu',
     org: 'NBCUniversal Parks & Resorts',
-    role: 'Executive Leader — Strategic Innovation & Emerging Technology',
-    period: 'Prior',
+    role: 'Vice President — Strategic Innovation & Emerging Technology, eCommerce, Digital & Brand Marketing',
+    period: '2002 – 2019',
     detail:
-      'Led Strategic Innovation & Emerging Technology alongside Digital and Brand Marketing for a global entertainment operation.',
+      'Led strategic innovation and emerging-technology programs alongside eCommerce, digital, and brand marketing for a global entertainment operation. Managed teams of 8 to 40+ across technology partners, agencies, and cross-functional divisions, with budgets from $1M to $25M+ spanning domestic and international park markets.',
+  },
+  {
+    id: 'platypus-labs',
+    org: 'Platypus Labs',
+    role: 'Consulting Innovation Partner',
+    period: 'Current',
+    detail:
+      'Training, speaking, and consulting that unlocks innovation for clients including Moss Adams, Honda, and Special Olympics Florida.',
   },
   {
     id: 'reaction-global',
     org: 'Reaction Global',
     role: 'Founding Partner',
     period: 'Prior',
-    detail: 'Founding partner.',
+    detail:
+      'Founding partner of a venture investment group focused on driving exponential, purpose-led change — a global community of executives, entrepreneurs, and investors.',
+  },
+  {
+    id: 'overture',
+    org: 'Overture Services / GoTo.com',
+    role: 'Director — Corporate Marketing, Alliance & Affiliate Partner Marketing',
+    period: 'Prior',
+    detail:
+      'Led B2B partnership marketing and corporate re-branding initiatives for the web-search pioneer.',
+  },
+  {
+    id: 'coca-cola',
+    org: 'The Coca-Cola Company',
+    role: 'Global Brand Manager — Corporate Strategic Marketing',
+    period: 'Prior',
+    detail: 'Led strategic marketing initiatives for the Diet Coke / Coca-Cola Light brands.',
+  },
+  {
+    id: 'pillsbury',
+    org: 'The Pillsbury Company',
+    role: 'Product & Brand Management',
+    period: 'Prior',
+    detail: 'Managed products and brands within the Green Giant, Totino’s, and Pillsbury business units.',
   },
   {
     id: 'innovation-leader',
     org: 'Innovation Leader',
     role: 'Editorial Advisory Board',
     period: 'Advisory',
-    detail: 'Editorial Advisory Board service.',
+    detail: 'Editorial Advisory Board service supporting a national corporate-innovation community.',
+  },
+  {
+    id: 'advisory',
+    org: 'Start-up & Angel Advisory',
+    role: 'Advisor / Member',
+    period: 'Advisory',
+    detail:
+      'Industry Advisor, Georgia Tech Create-X Start-up Launch Accelerator (2019 cohort); Conference Advisor, F50 Global Capital Summit Elevate Accelerator (2019); Member, Stanford Angels & Entrepreneurs; Founding Investor, PowerlawVC.',
   },
 ];
 
 export const education = [
   {
     id: 'stanford-exec',
-    org: 'Stanford University',
+    org: 'Stanford Graduate School of Business',
     credential: 'Stanford Executive Program — Alumnus',
-    detail: 'Graduate School of Business executive education.',
+    detail: 'Executive education, Summer 2019 cohort.',
   },
   {
     id: 'stanford-itl',
     org: 'Stanford University',
-    credential: 'Innovative Technology Leaders — Certificate',
-    detail: 'Certificate program.',
+    credential: 'Innovative Technology Leaders (ITL) — Certificate',
+    detail: 'Certificate program, 2018.',
   },
   {
     id: 'clark-atlanta',
     org: 'Clark Atlanta University',
     credential: 'MBA, Marketing & Finance',
-    detail: 'Master of Business Administration.',
+    detail: 'Master of Business Administration, Graduate School of Business.',
   },
   {
     id: 'florida',
     org: 'University of Florida',
-    credential: 'B.S., Business Administration',
-    detail: 'Bachelor of Science.',
+    credential: 'B.S., Business Administration (Marketing)',
+    detail: 'Bachelor of Science, Gainesville, Florida.',
+  },
+  {
+    id: 'professional-dev',
+    org: 'Professional Development',
+    credential: 'SAFe Agilist · PMI PMP Training · GE Crotonville Executive Leadership',
+    detail: 'Scaled Agile, Inc.; Project Management Institute; GE Crotonville.',
   },
 ];
 
