@@ -327,6 +327,17 @@ function Accomplishments() {
               </div>
               <h3 className="accomplishment-title">{a.title}</h3>
               <p className="accomplishment-body">{a.body}</p>
+              {a.link ? (
+                <a
+                  className="project-link accomplishment-link"
+                  href={a.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {a.linkLabel || 'View source'}
+                  <ArrowUpRight />
+                </a>
+              ) : null}
             </div>
           ))}
         </div>

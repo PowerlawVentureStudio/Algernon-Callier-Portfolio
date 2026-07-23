@@ -14,11 +14,13 @@ export const accomplishments = [
   },
   {
     id: 'facial-recognition',
-    stat: '2',
-    label: 'Patents pending · Co-inventor',
-    title: 'Piloted the first operational facial recognition system',
+    stat: 'US 10,657,362',
+    label: 'Granted patent · Co-inventor',
+    title: 'Co-inventor on the granted facial recognition patent',
     body:
-      'Led R&D, piloting, and first operational deployment of facial recognition technology into theme park attraction operations for high-value guest throughput — named co-inventor on two related patents. Recognized with the IDG Digital Edge 50 Award and a finalist placement for the Innovation Leader IMPACT Award.',
+      'Named co-inventor, alongside five NEC Corporation of America engineers, on U.S. Patent 10,657,362 B2, "Facial Recognition System," granted May 19, 2020 — the technology behind the first operational facial recognition pilot in theme park attraction operations for high-value guest throughput. The patent family spans a granted U.S. patent, a granted Australian patent, and additional filings in Japan, New Zealand, the EU, China, Hong Kong, Israel, and under the WO/PCT designation. Separately recognized with the IDG Digital Edge 50 Award and a finalist placement for the Innovation Leader IMPACT Award.',
+    link: 'https://patents.google.com/patent/US10657362B2/en',
+    linkLabel: 'View patent',
   },
   {
     id: 'enterprise-partnerships',

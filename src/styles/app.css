@@ -553,6 +553,9 @@
   color: var(--color-text-muted);
   line-height: 1.65;
 }
+.accomplishment-link {
+  margin-top: var(--space-1);
+}
 
 /* ---- Thesis ---- */
 .thesis-grid {
