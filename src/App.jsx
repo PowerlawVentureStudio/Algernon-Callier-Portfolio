@@ -138,9 +138,10 @@ function Hero() {
             </h1>
             <p className="hero-lede">
               I'm <strong>Al Callier</strong> — founder and CEO of{' '}
-              <strong>Draft First Technologies</strong>. I turn corporate
-              innovation experience into ventures that ship, backed by real
-              architecture and strategic IP.
+              <strong>Draft First Technologies</strong>. I turn deep
+              experience in enterprise innovation &amp; business building into
+              ventures that ship, backed by real architecture, design and
+              strategic IP.
             </p>
             <div className="hero-actions">
               <a
